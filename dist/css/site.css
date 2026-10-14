@@ -42,7 +42,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 body[data-page="patterns"] .site-header { color: var(--forest); border-bottom-color: var(--rule); background: var(--paper-bright); backdrop-filter: none; }
 .brand { display: inline-flex; align-items: center; gap: 0.75rem; color: inherit; text-decoration: none; }
 .brand-logo { width: 3.25rem; height: auto; filter: drop-shadow(0 1px 8px rgba(0,0,0,.16)); }
-body[data-page="patterns"] .brand-logo { filter: brightness(0) saturate(100%) invert(15%) sepia(16%) saturate(694%) hue-rotate(112deg) brightness(94%) contrast(91%); }
 .brand-copy { display: grid; gap: 0; line-height: 1; }
 .brand-copy strong { font-size: 1.02rem; letter-spacing: 0.16em; }
 .brand-copy small { margin-top: 0.3rem; font-size: 0.7rem; letter-spacing: 0.16em; }
@@ -59,17 +58,17 @@ body[data-page="patterns"] .brand-logo { filter: brightness(0) saturate(100%) in
 .hero-art img { width: 100%; height: 100%; object-fit: cover; object-position: 30.8% 26.2%; }
 .hero-art::after { position: absolute; content: ""; inset: 0; background: rgba(62,92,117,.29); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
 .hero-content { position: relative; width: min(72rem, 100%); margin: 7rem auto 3rem; padding: 0 var(--page-gutter); text-align: center; }
-.hero-logo-lockup { position: relative; display: flex; width: clamp(17rem, 34vw, 31rem); aspect-ratio: 1; flex-direction: column; align-items: center; justify-content: center; gap: clamp(.8rem, 2vw, 1.35rem); margin: 0 auto 1.6rem; }
+.hero-logo-lockup { position: relative; display: flex; width: clamp(17rem, 34vw, 31rem); aspect-ratio: 1; flex-direction: column; align-items: center; justify-content: center; gap: clamp(1rem, 2vw, 1.6rem); margin: 0 auto 2rem; }
 .hero-logo-orb { position: absolute; inset: 0; border-radius: 50%; background: rgba(0,0,0,.3); backdrop-filter: blur(13px); -webkit-backdrop-filter: blur(13px); }
 .hero-mark { position: relative; z-index: 1; width: 43%; filter: drop-shadow(0 2px 12px rgba(0,0,0,.18)); }
-.hero-service-name { position: relative; z-index: 1; margin: 0; color: #fff; font-family: var(--font-service); font-size: clamp(2.2rem, 4.4vw, 3.5rem); font-weight: 300; letter-spacing: .02em; line-height: 1; text-transform: uppercase; }
+.hero-service-name { position: relative; z-index: 1; margin: 0; color: #fff; font-family: var(--font-service); font-size: clamp(2.1rem, 4vw, 3.1rem); font-weight: 300; letter-spacing: .02em; line-height: 1; text-transform: uppercase; }
 .eyebrow { margin: 0 0 1rem; color: var(--clay); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.16em; line-height: 1.5; }
 .eyebrow-light { color: rgba(255,255,255,.8); }
 h1, h2, h3, p { margin-top: 0; }
 h1, h2 { font-weight: 400; letter-spacing: -0.045em; line-height: 1.06; }
 h1, h2, .pattern-intro h1 { font-family: var(--font-display); }
 h1 em, h2 em { color: #c4d1c8; font-weight: 400; }
-.hero h1 { max-width: 70rem; margin: 0 auto 1.3rem; font-size: clamp(3rem, 5.5vw, 5.8rem); }
+.hero h1 { max-width: 70rem; margin: 0 auto 1.3rem; font-size: clamp(2.8rem, 4.8vw, 5rem); }
 .hero-lede { max-width: 40rem; margin: 0 auto 2rem; color: rgba(255,255,255,.88); font-size: clamp(1rem, 1.5vw, 1.25rem); }
 .hero-caption { position: absolute; right: var(--page-gutter); bottom: 1.7rem; margin: 0; color: rgba(255,255,255,.88); font-size: 0.75rem; letter-spacing: .1em; text-transform: uppercase; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 1.25rem; min-height: 3rem; padding: 0.8rem 1.15rem; border: 1px solid transparent; font-size: 0.82rem; font-weight: 600; text-decoration: none; transition: transform .18s ease, background .18s ease; }
@@ -88,7 +87,7 @@ h1 em, h2 em { color: #c4d1c8; font-weight: 400; }
 .section-kicker { display: flex; align-items: baseline; gap: .8rem; color: var(--clay); font-size: .75rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
 .section-kicker span:first-child { font-family: var(--font-display); font-size: .9rem; letter-spacing: 0; }
 .intro-copy { grid-column: 2 / -1; max-width: 50rem; }
-.intro h2, .approach h2, .section-heading h2, .offer-section h2, .detail-copy h2, .portfolio-copy h2, .contact-inner h2, .page-cta h2, .pattern-section h2 { margin-bottom: 1.5rem; font-size: clamp(2.45rem, 5vw, 4.75rem); }
+.intro h2, .approach h2, .section-heading h2, .offer-section h2, .detail-copy h2, .portfolio-copy h2, .contact-inner h2, .page-cta h2, .pattern-section h2 { margin-bottom: 1.5rem; font-size: clamp(2.25rem, 4.2vw, 3.9rem); }
 .lead { color: var(--forest); font-size: clamp(1.13rem, 1.75vw, 1.45rem); line-height: 1.55; }
 .intro-text-with-mark { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; gap: clamp(1rem, 3vw, 3rem); }
 .intro-text-block > p:not(.lead) { max-width: 42rem; margin-bottom: 1.5rem; color: var(--muted); }
@@ -124,7 +123,7 @@ h1 em, h2 em { color: #c4d1c8; font-weight: 400; }
 .contact-band { background: #ded2c0; color: var(--forest); }
 .contact-inner { display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: 4rem; padding-top: clamp(3.5rem, 7vw, 6rem); padding-bottom: clamp(3.5rem, 7vw, 6rem); }
 .contact-inner .eyebrow { color: var(--clay-dark); }
-.contact-inner h2 { margin: 0; font-size: clamp(2.5rem, 5vw, 4.4rem); }
+.contact-inner h2 { margin: 0; font-size: clamp(2.25rem, 4.2vw, 3.9rem); }
 .contact-invitation { display: grid; max-width: 28rem; gap: .8rem; margin: 0; color: var(--forest); font-size: clamp(1.05rem, 1.7vw, 1.3rem); text-decoration: none; }
 .contact-invitation:focus-visible { outline-offset: .3rem; }
 .contact-invitation > .text-link { width: fit-content; font-size: .82rem; }
@@ -166,12 +165,12 @@ h1 em, h2 em { color: #c4d1c8; font-weight: 400; }
 .page-cta h2 { max-width: 49rem; }
 
 .pattern-intro { padding-top: 10rem; padding-bottom: 3rem; }
-.pattern-intro h1 { max-width: 60rem; margin: 2rem 0 1.5rem; font-size: clamp(3.5rem, 8vw, 7rem); }
+.pattern-intro h1 { max-width: 60rem; margin: 2rem 0 1.5rem; font-size: clamp(2.2rem, 6.3vw, 5.5rem); }
 .pattern-intro h1 em { color: var(--clay); }
 .pattern-intro > p { max-width: 45rem; color: var(--muted); }
 .pattern-intro > .lead { color: var(--forest); }
 .pattern-section { padding-top: 4rem; padding-bottom: 4.5rem; }
-.pattern-section h2 { margin: 1.5rem 0 2rem; font-size: clamp(2.1rem, 4vw, 3.8rem); }
+.pattern-section h2 { margin: 1.5rem 0 2rem; font-size: clamp(2rem, 3.5vw, 3.3rem); }
 .pattern-surface { background: #e9e1d4; }
 .swatch-grid { display: grid; grid-template-columns: repeat(6,1fr); gap: .75rem; }
 .swatch { display: flex; min-height: 8rem; flex-direction: column; justify-content: space-between; padding: 1rem; font-size: .82rem; }

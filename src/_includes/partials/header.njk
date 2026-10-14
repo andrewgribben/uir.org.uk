@@ -1,6 +1,10 @@
 <header class="site-header">
   <a class="brand" href="index.html" aria-label="ÚIR Consulting home">
-    <img class="brand-logo" src="assets/uir-logo.svg?v=geometry-20261014" alt="" aria-hidden="true">
+    {% if pageId == "patterns" %}
+      <img class="brand-logo" src="assets/uir-logo-dark.svg?v=colors-20261014" alt="" aria-hidden="true">
+    {% else %}
+      <img class="brand-logo" src="assets/uir-logo.svg?v=geometry-20261014" alt="" aria-hidden="true">
+    {% endif %}
     <span class="brand-copy"><strong>ÚIR</strong><small>CONSULTING</small></span>
   </a>
   <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">

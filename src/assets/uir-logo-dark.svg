@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 200" role="img" aria-labelledby="title">
+  <title id="title">UIR logo</title>
+  <path fill="#21332e" d="M0 0H20V80H80V0H100V100H0ZM110 0H130V200H110ZM140 200V100H240V120H160V200Z"/>
+  <path d="M40 0H60V20H40Z" fill="#2093e7"/>
+  <path d="M220 180H240V200H220Z" fill="#755c36"/>
+</svg>

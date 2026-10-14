@@ -32,6 +32,8 @@ Display typography uses a system serif stack; body typography uses a system sans
 
 The standalone mark is the three-part U-I-r symbol in [`dist/assets/uir-logo.svg`](../dist/assets/uir-logo.svg). Its viewBox is 256 × 200 units:
 
+Use the white form on dark surfaces and `src/assets/uir-logo-dark.svg` on light surfaces. Both versions preserve the blue and clay accent squares.
+
 - The U and lowercase r each occupy a 100 × 100 unit square. Their strokes are 20 units thick.
 - The I is 20 × 200 units, twice the height of either outer letter.
 - The clear gaps between U–I and I–r are equal at 10 units.
