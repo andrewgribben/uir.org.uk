@@ -25,7 +25,7 @@ UIR Form and UIR Studio are working names proposed for this first draft. The ser
 | `--sky` | `#78a8a0` | Small accent detail |
 | `--focus` | `#b86339` | Visible keyboard focus |
 
-Display typography uses a system serif stack; body typography uses a system sans stack. This avoids an external font request and keeps the pages resilient when a visitor is offline or blocks third-party services. Text colours are chosen for WCAG AA contrast on their intended surfaces; moss and sky are accents, not body-text colours. On clay and sand surfaces, labels use the darker clay token. The focus ring remains visible on both light and dark surfaces.
+Display typography uses a system serif stack; body typography uses a system sans stack. This avoids an external font request and keeps the pages resilient when a visitor is offline or blocks third-party services. Text colours are chosen for WCAG AA contrast on their intended surfaces; moss and sky are accents, not body-text colours. On clay and sand surfaces, labels use the darker clay token. The header uses a dark translucent band over imagery and a light surface on the pattern library. The focus ring remains visible on both light and dark surfaces.
 
 ## Shared components
 
