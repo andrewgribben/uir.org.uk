@@ -18,12 +18,14 @@ UIR Form and UIR Studio are working names proposed for this first draft. The ser
 | `--forest` | `#21332e` | Primary brand ground and high-emphasis surfaces |
 | `--forest-deep` | `#182823` | Footer and deepest contrast |
 | `--clay` | `#80674d` | Earth accent and section labels |
+| `--clay-dark` | `#68523e` | Text labels on sand surfaces |
 | `--paper` | `#f5f0e7` | Warm light surfaces |
+| `--muted` | `#59635c` | Secondary body copy on light surfaces |
 | `--moss` | `#78938a` | Secondary natural tone |
 | `--sky` | `#78a8a0` | Small accent detail |
 | `--focus` | `#b86339` | Visible keyboard focus |
 
-Display typography uses a system serif stack; body typography uses a system sans stack. This avoids an external font request and keeps the pages resilient when a visitor is offline or blocks third-party services.
+Display typography uses a system serif stack; body typography uses a system sans stack. This avoids an external font request and keeps the pages resilient when a visitor is offline or blocks third-party services. Text colours are chosen for WCAG AA contrast on their intended surfaces; moss and sky are accents, not body-text colours. On clay and sand surfaces, labels use the darker clay token. The focus ring remains visible on both light and dark surfaces.
 
 ## Shared components
 
@@ -46,5 +48,6 @@ The current hero is a CSS illustration that establishes the composition in the s
 1. Prefer the existing token and component before adding a new one.
 2. Keep shared structure in `ui.js`; keep visual rules and responsive behaviour in `site.css`.
 3. Update this document and the live pattern page whenever a shared pattern changes.
-4. Check the result at narrow, medium and wide viewport widths.
-5. Preserve skip navigation, landmarks, heading order, keyboard focus, reduced-motion support and readable contrast.
+4. Check the result at narrow (320 px), medium (768 px) and wide (1440 px) viewport widths, including 200% zoom and no horizontal scrolling.
+5. Preserve skip navigation, landmarks, heading order, keyboard focus, reduced-motion support and readable contrast. Check keyboard-only navigation, mobile menu state, text resizing and link/button targets.
+6. Verify normal text contrast at WCAG AA (4.5:1), large text and essential non-text indicators at 3:1, against each actual background.
