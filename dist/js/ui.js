@@ -12,7 +12,7 @@ export function renderHeader(activePage = "home") {
 
   return `<header class="site-header">
     <a class="brand" href="index.html" aria-label="ÚIR Consulting home">
-      <span class="brand-mark" aria-hidden="true">Ú</span>
+      <img class="brand-logo" src="assets/uir-logo.svg?v=geometry-20261014" alt="" aria-hidden="true">
       <span class="brand-copy"><strong>ÚIR</strong><small>CONSULTING</small></span>
     </a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
@@ -28,14 +28,6 @@ export function renderHeader(activePage = "home") {
 export function renderFooter() {
   const year = new Date().getFullYear();
   return `<footer class="site-footer">
-    <div class="footer-main">
-      <a class="brand brand-footer" href="index.html" aria-label="ÚIR Consulting home">
-        <span class="brand-mark" aria-hidden="true">Ú</span>
-        <span class="brand-copy"><strong>ÚIR</strong><small>CONSULTING</small></span>
-      </a>
-      <p>Rooted in County Armagh.<br>Making digital work better from the ground up.</p>
-      <nav class="footer-services" aria-label="Service areas">${navigation.map(({ label, href }) => `<a href="${href}">UIR ${label}</a>`).join("")}</nav>
-    </div>
-    <div class="footer-base"><span>© ${year} ÚIR Consulting Ltd.</span><a href="pattern-library.html">Pattern library</a><span>County Armagh, Northern Ireland</span></div>
+    <div class="footer-base"><span>© ${year} ÚIR Consulting Ltd.</span><a href="pattern-library.html">Pattern library</a><span>Rooted in County Armagh, Northern Ireland</span></div>
   </footer>`;
 }

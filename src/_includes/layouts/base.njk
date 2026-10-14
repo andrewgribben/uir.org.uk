@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#21332e">
+  <meta name="description" content="{{ description }}">
+  <title>{{ title }}</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css?v=logo-guide-20261014b">
+  <script type="module" src="js/site.js?v=logo-guide-20261014"></script>
+</head>
+<body data-page="{{ pageId }}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  {% include "partials/header.njk" %}
+  <main id="main"{% if mainClass %} class="{{ mainClass }}"{% endif %}>
+    {{ content | safe }}
+  </main>
+  {% include "partials/footer.njk" %}
+</body>
+</html>

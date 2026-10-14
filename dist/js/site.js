@@ -1,11 +1,3 @@
-import { renderFooter, renderHeader } from "./ui.js";
-
-const page = document.body.dataset.page || "home";
-const header = document.querySelector("[data-site-header]");
-const footer = document.querySelector("[data-site-footer]");
-if (header) header.innerHTML = renderHeader(page);
-if (footer) footer.innerHTML = renderFooter();
-
 const toggle = document.querySelector(".nav-toggle");
 const navigation = document.querySelector(".primary-navigation");
 if (toggle && navigation) {

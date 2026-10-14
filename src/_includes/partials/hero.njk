@@ -1,0 +1,13 @@
+<section class="hero" aria-labelledby="{{ hero.titleId | default('page-title') }}">
+  <div class="hero-art" aria-hidden="true"><img src="assets/hero-stone-1365.jpg" srcset="assets/hero-stone-682.jpg 682w, assets/hero-stone-1365.jpg 1365w, assets/hero-stone-2730.jpg 2730w, assets/hero-stone.jpg 5504w" sizes="100vw" alt=""></div>
+  <div class="hero-content">
+    <div class="hero-logo-lockup">
+      <div class="hero-logo-orb" aria-hidden="true"></div>
+      <img class="hero-mark" src="assets/uir-logo.svg?v=geometry-20261014" alt="UIR">
+      <p class="hero-service-name">{{ hero.serviceName }}</p>
+    </div>
+    <h1 id="{{ hero.titleId | default('page-title') }}">{{ hero.heading | safe }}</h1>
+    {% if hero.lede %}<p class="hero-lede">{{ hero.lede }}</p>{% endif %}
+    {% if hero.button %}<a class="button button-light" href="{{ hero.button.href }}">{{ hero.button.label }} <span aria-hidden="true">{{ hero.button.icon }}</span></a>{% endif %}
+  </div>
+</section>

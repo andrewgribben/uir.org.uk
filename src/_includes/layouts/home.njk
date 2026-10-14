@@ -1,0 +1,66 @@
+---
+layout: base.njk
+---
+{% include "partials/hero.njk" %}
+
+<section class="intro section-wrap" aria-labelledby="intro-title">
+  <div class="section-kicker"><span>01</span><span>{{ intro.kicker }}</span></div>
+  <div class="intro-copy">
+    <h2 id="intro-title">{{ intro.heading }}</h2>
+    <div class="intro-text-with-mark">
+      <div class="intro-text-block">
+        <p class="lead">{{ intro.lead }}</p>
+        {% for paragraph in intro.body %}
+          <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <aside class="intro-note" aria-label="A note on the ÚIR name">
+        <a class="note-symbol-link" href="{{ intro.note.href }}" aria-label="{{ intro.note.ariaLabel }}" aria-describedby="ur-symbol-tooltip">
+          <span class="note-mark" aria-hidden="true">{{ intro.note.symbol }}</span>
+          <span class="note-symbol-tooltip" id="ur-symbol-tooltip" role="tooltip">{{ intro.note.tooltip }}</span>
+        </a>
+      </aside>
+    </div>
+    <a class="text-link" href="{{ intro.link.href }}">{{ intro.link.label }} <span aria-hidden="true">↗</span></a>
+  </div>
+</section>
+
+<section class="services-section" id="our-work" aria-labelledby="services-title">
+  <div class="section-wrap">
+    <div class="section-kicker section-kicker-light"><span>02</span><span>{{ services.kicker }}</span></div>
+    <div class="section-heading section-heading-light">
+      <h2 id="services-title">{{ services.heading | safe }}</h2>
+      <p>{{ services.summary }}</p>
+    </div>
+    <div class="service-grid">
+      {% for service in services.items %}
+        <article class="service-card {{ service.className }}">
+          <p class="eyebrow">{{ service.eyebrow }}</p>
+          <h3>{{ service.title }}</h3>
+          <p>{{ service.summary }}</p>
+          <a class="text-link text-link-light" href="{{ service.href }}">{{ service.linkLabel }} <span aria-hidden="true">↗</span></a>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="approach section-wrap" aria-labelledby="approach-title">
+  <div class="approach-art" aria-hidden="true"><img src="assets/uir-logo.svg?v=geometry-20261014" alt=""></div>
+  <div class="approach-copy">
+    <div class="section-kicker"><span>03</span><span>{{ approach.kicker }}</span></div>
+    <h2 id="approach-title">{{ approach.heading | safe }}</h2>
+    <p>{{ approach.body }}</p>
+    <a class="button button-dark" href="{{ approach.button.href }}">{{ approach.button.label }} <span aria-hidden="true">↗</span></a>
+  </div>
+</section>
+
+<section class="contact-band" id="contact" aria-labelledby="contact-title">
+  <div class="section-wrap contact-inner">
+    <div>
+      <p class="eyebrow">{{ contact.eyebrow }}</p>
+      <h2 id="contact-title">{{ contact.heading }}</h2>
+    </div>
+    <a class="contact-invitation" href="{{ contact.href }}"><span>{{ contact.body }}</span><span class="text-link">{{ contact.linkLabel }} <span aria-hidden="true">↗</span></span></a>
+  </div>
+</section>

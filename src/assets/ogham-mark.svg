@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title id="title">Abstract Ogham-inspired ÚIR mark</title>
+  <g fill="none" stroke="#f5f0e7" stroke-linecap="square" stroke-width="8">
+    <path d="M28 26v42m0-21h24m-24 9h24m-24 9h24M65 24v70m0-46h22m-22 11h22m-22 11h22M99 50v34m0-17h12m-12 8h12"/>
+  </g>
+  <circle cx="52" cy="20" r="4" fill="#78a8a0"/>
+  <circle cx="113" cy="83" r="4" fill="#bc8e57"/>
+</svg>

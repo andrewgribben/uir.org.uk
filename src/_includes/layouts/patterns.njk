@@ -1,0 +1,11 @@
+---
+layout: base.njk
+mainClass: pattern-page
+---
+<header class="pattern-intro section-wrap">
+  <div class="section-kicker"><span>UIR</span><span>{{ intro.kicker }}</span></div>
+  <h1>{{ intro.heading | safe }}</h1>
+  <p class="lead">{{ intro.lead }}</p>
+  <p>{{ intro.body }}</p>
+</header>
+{{ content | safe }}
