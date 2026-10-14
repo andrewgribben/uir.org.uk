@@ -13,7 +13,7 @@ The site is generated with [Eleventy](https://www.11ty.dev/) from Markdown page 
 - `src/contact.md` -> `dist/contact.html` — contact information
 - `src/pattern-library.md` -> `dist/pattern-library.html` — shared design system examples
 
-Shared layouts live in `src/_includes/`. Static assets, CSS and JavaScript live under `src/assets/`, `src/css/` and `src/js/`, then copy into `dist/` during the build. Site configuration is in `.openai/hosting.json`, which is copied into `dist/.openai/hosting.json` for hosting compatibility.
+Shared layouts live in `src/_includes/`. Static assets, CSS and JavaScript live under `src/assets/`, `src/css/` and `src/js/`, then copy into `dist/` during the build. Local hosting configuration can be kept in `.openai/hosting.json`; it is ignored by Git and is not included in the public site build.
 
 ## Local development
 
