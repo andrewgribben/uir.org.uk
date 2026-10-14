@@ -7,7 +7,6 @@ description: UIR Form brings 3D modelling and print management together under on
 hero:
   serviceName: Form
   heading: Ideas take<br><em>shape.</em>
-  lede: UIR Form brings 3D modelling and 3D printer management together — from shaping a model to supporting the print process.
   button:
     href: "#approach"
     label: Explore UIR Form

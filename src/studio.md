@@ -7,7 +7,6 @@ description: UIR Studio designs and develops apps and websites with people and p
 hero:
   serviceName: Studio
   heading: Digital things,<br><em>made with care.</em>
-  lede: UIR Studio is where ÚIR’s app and website design and development work comes together — shaped around the people who use it.
   button:
     href: "#approach"
     label: Explore UIR Studio

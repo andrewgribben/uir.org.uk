@@ -7,7 +7,6 @@ description: UIR Access puts digital accessibility at the foundation of good dig
 hero:
   serviceName: Access
   heading: Accessibility<br><em>from the start.</em>
-  lede: Digital accessibility is the work at the heart of ÚIR. We help make it part of the process, the design and the finished experience.
   button:
     href: "#approach"
     label: Our approach
