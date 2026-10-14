@@ -1,5 +1,5 @@
 <header class="site-header">
-  <a class="brand" href="index.html" aria-label="ÚIR Consulting home">
+  <a class="brand" href="/" aria-label="ÚIR Consulting home">
     {% if pageId == "patterns" %}
       <img class="brand-logo" src="assets/uir-logo-dark.svg?v=colors-20261014" alt="" aria-hidden="true">
     {% else %}
@@ -11,10 +11,10 @@
     <span class="nav-toggle-label">Menu</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
   </button>
   <nav class="primary-navigation" id="primary-navigation" aria-label="Primary navigation">
-    <a href="index.html"{% if pageId == "home" %} aria-current="page"{% endif %}>Overview</a>
+    <a href="/"{% if pageId == "home" %} aria-current="page"{% endif %}>Overview</a>
     {% for item in site.nav %}
       <a href="{{ item.href }}"{% if pageId == item.id %} aria-current="page"{% endif %}>{{ item.label }}</a>
     {% endfor %}
-    <a class="nav-contact" href="index.html#our-work">Our work <span aria-hidden="true">↗</span></a>
+    <a class="nav-contact" href="/#our-work">Our work <span aria-hidden="true">↗</span></a>
   </nav>
 </header>

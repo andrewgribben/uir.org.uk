@@ -11,7 +11,7 @@ export function renderHeader(activePage = "home") {
   }).join("");
 
   return `<header class="site-header">
-    <a class="brand" href="index.html" aria-label="ÚIR Consulting home">
+    <a class="brand" href="/" aria-label="ÚIR Consulting home">
       <img class="brand-logo" src="assets/uir-logo.svg?v=geometry-20261014" alt="" aria-hidden="true">
       <span class="brand-copy"><strong>ÚIR</strong><small>CONSULTING</small></span>
     </a>
@@ -19,8 +19,8 @@ export function renderHeader(activePage = "home") {
       <span class="nav-toggle-label">Menu</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
     </button>
     <nav class="primary-navigation" id="primary-navigation" aria-label="Primary navigation">
-      <a href="index.html"${activePage === "home" ? ' aria-current="page"' : ""}>Overview</a>${links}
-      <a class="nav-contact" href="index.html#our-work">Our work <span aria-hidden="true">↗</span></a>
+      <a href="/"${activePage === "home" ? ' aria-current="page"' : ""}>Overview</a>${links}
+      <a class="nav-contact" href="/#our-work">Our work <span aria-hidden="true">↗</span></a>
     </nav>
   </header>`;
 }

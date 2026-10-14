@@ -47,6 +47,6 @@ portfolio:
 cta:
   eyebrow: UIR ACCESS
   heading: Start with the people<br>who’ll use it.
-  href: index.html#our-work
+  href: /#our-work
   label: Back to all ÚIR services
 ---

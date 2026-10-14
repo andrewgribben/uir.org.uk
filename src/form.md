@@ -47,6 +47,6 @@ portfolio:
 cta:
   eyebrow: UIR FORM
   heading: Have something<br>you’d like to make?
-  href: index.html#our-work
+  href: /#our-work
   label: Back to all ÚIR services
 ---

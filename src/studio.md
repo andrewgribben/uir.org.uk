@@ -42,6 +42,6 @@ portfolio:
 cta:
   eyebrow: UIR STUDIO
   heading: Let’s shape a useful<br>digital experience.
-  href: index.html#our-work
+  href: /#our-work
   label: Back to all ÚIR services
 ---
