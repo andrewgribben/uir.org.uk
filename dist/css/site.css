@@ -55,7 +55,7 @@ h1, h2, h3, p { margin-top: 0; }
 h1, h2 { font-weight: 400; letter-spacing: -0.045em; line-height: 1.06; }
 h1, h2, .pattern-intro h1 { font-family: var(--font-display); }
 h1 em, h2 em { color: #c4d1c8; font-weight: 400; }
-.hero h1 { margin: 0 auto 1.3rem; font-size: clamp(3rem, 7.3vw, 6.9rem); }
+.hero h1 { max-width: 70rem; margin: 0 auto 1.3rem; font-size: clamp(3rem, 5.5vw, 5.8rem); }
 .hero-lede { max-width: 40rem; margin: 0 auto 2rem; color: rgba(255,255,255,.88); font-size: clamp(1rem, 1.5vw, 1.25rem); }
 .hero-caption { position: absolute; right: var(--page-gutter); bottom: 1.7rem; margin: 0; color: rgba(255,255,255,.74); font-size: 0.67rem; letter-spacing: .12em; text-transform: uppercase; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 1.25rem; min-height: 3rem; padding: 0.8rem 1.15rem; border: 1px solid transparent; font-size: 0.78rem; font-weight: 600; text-decoration: none; transition: transform .18s ease, background .18s ease; }
