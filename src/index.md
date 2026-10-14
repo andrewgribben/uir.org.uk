@@ -17,7 +17,8 @@ intro:
   heading: Inclusion belongs at the foundation.
   lead: The best digital experiences are shaped around people from the outset — not adjusted as an afterthought.
   body:
-    - Úir is an Old Irish word for earth, soil and fresh ground. It also speaks to orchard. Here in County Armagh, where our business is rooted in a former orchard, the name brings our place and our purpose together: build with care, from the ground up.
+    - >-
+      Úir is an Old Irish word for earth, soil and fresh ground. It also speaks to orchard. Here in County Armagh, where our business is rooted in a former orchard, the name brings our place and our purpose together: build with care, from the ground up.
   note:
     symbol: ᚒ
     href: https://en.wikipedia.org/wiki/Úr
