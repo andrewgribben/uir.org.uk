@@ -50,7 +50,13 @@ intro:
     <div class="component-examples">
       <article class="component-sample"><p class="eyebrow">BUTTON / PRIMARY</p><a class="button button-dark" href="#pattern-interaction">Explore a service <span aria-hidden="true">↗</span></a></article>
       <article class="component-sample"><p class="eyebrow">TEXT LINK / INLINE</p><a class="text-link" href="#pattern-interaction">Read the approach <span aria-hidden="true">↗</span></a></article>
-      <article class="component-sample"><p class="eyebrow">SERVICE CARD</p><div class="mini-card"><span class="service-symbol" aria-hidden="true">A<span>·</span></span><h3>UIR Access</h3><p>Accessibility at the foundation.</p></div></article>
+      <article class="component-sample">
+        <p class="eyebrow">SERVICE CARD</p>
+        <div class="service-card-example">
+          {% set service = serviceCards[0] %}
+          {% include "partials/service-card.njk" %}
+        </div>
+      </article>
       <article class="component-sample"><p class="eyebrow">SECTION LABEL</p><div class="section-kicker"><span>03</span><span>Selected work</span></div></article>
     </div>
   </div>

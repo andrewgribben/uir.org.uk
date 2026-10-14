@@ -108,11 +108,6 @@ h1 em, h2 em { color: #c4d1c8; font-weight: 400; }
 .service-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid rgba(245,240,231,.28); }
 .service-card { position: relative; min-height: 25rem; padding: 2rem clamp(1.2rem, 2.5vw, 2.5rem) 1.7rem 0; }
 .service-card + .service-card { padding-left: clamp(1.2rem, 2.5vw, 2.5rem); border-left: 1px solid rgba(245,240,231,.28); }
-.service-symbol { display: inline-flex; align-items: flex-start; color: #c4d1c8; font-family: var(--font-display); font-size: 4rem; line-height: .9; }
-.service-symbol span { margin: -.1rem 0 0 .18rem; color: var(--sky); font: 700 1.4rem var(--font-body); }
-.service-symbol-form { color: #d4b48c; }
-.service-symbol-form span { color: #e2c79e; }
-.service-symbol-studio { color: #acc4c0; }
 .service-card .eyebrow { margin: 1.8rem 0 .75rem; color: #b9c5bf; }
 .service-card h3 { margin-bottom: .8rem; font-family: var(--font-display); font-size: clamp(1.8rem, 3vw, 2.7rem); font-weight: 400; letter-spacing: -.035em; }
 .service-card > p:not(.eyebrow) { min-height: 5rem; max-width: 21rem; color: rgba(245,240,231,.74); font-size: .93rem; }
@@ -193,8 +188,9 @@ h1 em, h2 em { color: #c4d1c8; font-weight: 400; }
 .component-examples { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
 .component-sample { min-height: 10rem; padding: 1.5rem; background: var(--paper-bright); }
 .component-sample > .eyebrow { margin-bottom: 1.5rem; }
-.mini-card { max-width: 18rem; padding: 1.25rem; background: var(--forest); color: var(--paper); }
-.mini-card .service-symbol { font-size: 2.2rem; }.mini-card h3 { margin: .8rem 0 .3rem; font-family: var(--font-display); font-size: 1.45rem; font-weight: 400; }.mini-card p { margin: 0; color: rgba(245,240,231,.75); font-size: .8rem; }
+.service-card-example { padding: 1.5rem; background: var(--paper-bright); }
+.service-card-example .service-card { min-height: 0; padding: 1.5rem; background: var(--forest); color: var(--paper); }
+.service-card-example .service-card > p:not(.eyebrow) { min-height: 0; }
 .accessibility-list { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem 3rem; max-width: 60rem; }
 .accessibility-list p { margin: 0; padding-top: .8rem; border-top: 1px solid var(--rule); color: var(--muted); }
 .accessibility-list strong { color: var(--forest); }

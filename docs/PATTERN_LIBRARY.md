@@ -45,6 +45,7 @@ Preserve these proportions, equal gaps and accent alignments when scaling or rep
 - `src/_includes/partials/header.njk` renders the UIR logo, responsive primary navigation and current-page state.
 - `src/_includes/partials/footer.njk` renders a compact line with copyright, the pattern library link and “Rooted in County Armagh, Northern Ireland.”
 - The home contact invitation links directly to the Contact page.
+- `src/_includes/partials/service-card.njk` is the shared service-card component used on the home page and in the pattern library. Its content is maintained in `src/_data/serviceCards.js`; the pattern example renders the first service from that same data.
 - `.button`, `.text-link`, `.section-kicker`, `.service-card`, `.offer-card` and `.portfolio-section` are shared styling patterns.
 - Service pages keep the same sequence: introduction, what the service does, selected work, next step.
 - The home page introduces the origin and all three areas before linking to each service page.
@@ -60,7 +61,7 @@ The home, service and contact heroes use the approved standing-stone photograph 
 ## Change guidance
 
 1. Prefer the existing token and component before adding a new one.
-2. Keep shared structure in the templates under `src/_includes`; keep visual rules and responsive behaviour in `src/css/site.css`.
+2. Keep shared structure in the templates under `src/_includes` and shared content in `src/_data`; keep visual rules and responsive behaviour in `src/css/site.css`.
 3. Update this document and the live pattern page whenever a shared pattern changes.
 4. Check the result at narrow (320 px), medium (768 px) and wide (1440 px) viewport widths, including 200% zoom and no horizontal scrolling.
 5. Preserve skip navigation, landmarks, heading order, keyboard focus, reduced-motion support and readable contrast. Check keyboard-only navigation, mobile menu state, text resizing and link/button targets.
