@@ -38,6 +38,7 @@ try {
   }
 
   await cp(join(projectRoot, "dist"), temporaryPath, { recursive: true });
+  await rm(join(temporaryPath, ".openai"), { recursive: true, force: true });
   await writeFile(join(temporaryPath, ".nojekyll"), "");
   await writeFile(join(temporaryPath, "CNAME"), "uir.org.uk\n");
 
