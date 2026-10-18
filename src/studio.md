@@ -15,9 +15,6 @@ intro:
   kicker: Our approach
   heading: Useful, clear and considered.
   lead: Good digital products connect a clear purpose with an experience people can understand and use.
-  body:
-    - UIR Studio brings design and development together for apps and websites. We keep the end-to-end experience in view, making deliberate choices about how a product looks, works and communicates.
-    - Accessibility is part of that foundation. It informs our approach across the work, alongside the needs of each project and the people it serves.
 offer:
   titleId: studio-offer-title
   kicker: What we do
@@ -38,10 +35,13 @@ portfolio:
   kicker: Selected work
   heading: Digital experiences, built for people.
   empty: Studio examples will appear here as they’re prepared for sharing.
-  items: []
 cta:
   eyebrow: UIR STUDIO
   heading: Let’s shape a useful<br>digital experience.
   href: /#our-work
   label: Back to all ÚIR services
 ---
+
+UIR Studio brings design and development together for apps and websites. We keep the end-to-end experience in view, making deliberate choices about how a product looks, works and communicates.
+
+Accessibility is part of that foundation. It informs our approach across the work, alongside the needs of each project and the people it serves.

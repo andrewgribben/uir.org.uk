@@ -43,15 +43,21 @@ npm run serve
 
 ## GitHub Pages deployment
 
-GitHub Pages deployment is configured in `.github/workflows/pages.yml`. The workflow builds the site and publishes the generated `dist/` directory.
+GitHub Pages serves the prebuilt files from the `gh-pages` branch. Build and publish locally with:
 
-In the GitHub repository settings, set **Settings -> Pages -> Build and deployment -> Source** to **GitHub Actions**. After that one-time setting is in place, pushes to `main` deploy the site.
+```sh
+npm run deploy:pages
+```
 
-A custom domain and `CNAME` file are intentionally not configured yet, so this repository does not assume a production domain.
+The command builds Eleventy, copies `dist/` to `gh-pages`, writes `.nojekyll` and `CNAME`, and pushes that branch. Source changes go to `main`; publishing the site is a separate, explicit step. The repository's Pages source must be set to **Deploy from a branch**, `gh-pages`, `/`.
 
 ## Design system
 
 Read [`docs/PATTERN_LIBRARY.md`](docs/PATTERN_LIBRARY.md) before changing shared components. The generated live reference is [the pattern library page](dist/pattern-library.html).
+
+## Adding project examples
+
+Add one Markdown file per client or product example under `src/projects/access/`, `src/projects/form/` or `src/projects/studio/`. See [`docs/ADDING_PROJECTS.md`](docs/ADDING_PROJECTS.md) for the fields, ordering and rebuild steps.
 
 ## Content to add
 
