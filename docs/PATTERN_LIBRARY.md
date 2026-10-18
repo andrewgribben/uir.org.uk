@@ -54,7 +54,7 @@ Preserve these proportions, equal gaps and accent alignments when scaling or rep
 
 ## Adding real portfolio entries
 
-The service pages use a consistent selected-work card. UIR Access includes CIVIC UK; UIR Form includes the Mind Mesh Learning System. These summaries use the project details supplied by UIR. Add imagery or more outcome detail only when UIR has approved the materials for publication. UIR Studio's portfolio area remains ready for a confirmed project. Do not add invented testimonials, partner marks, outcomes or client details.
+The service pages use a consistent selected-work card. Each card is authored as a Markdown file under `src/projects/access/`, `src/projects/form/` or `src/projects/studio/`; the Markdown body provides the description and front matter provides the card details and order. UIR Access includes CIVIC UK; UIR Form includes the Mind Mesh Learning System. These summaries use the project details supplied by UIR. Add imagery or more outcome detail only when UIR has approved the materials for publication. UIR Studio's portfolio area remains ready for a confirmed project. Do not add invented testimonials, partner marks, outcomes or client details. See [`ADDING_PROJECTS.md`](ADDING_PROJECTS.md) for the step-by-step instructions.
 
 ## Image handoff
 

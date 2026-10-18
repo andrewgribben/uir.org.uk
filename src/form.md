@@ -15,9 +15,6 @@ intro:
   kicker: Our approach
   heading: Thoughtful making, from model to print.
   lead: The digital model and the way it’s produced belong in the same conversation.
-  body:
-    - UIR Form is the home for ÚIR’s 3D modelling and printer management work. We bring care to the shape of an idea and to the practical details that help turn it into a physical object.
-    - Each project is different. We’ll begin with what you need to make, how it will be used and what your current setup can support.
 offer:
   titleId: form-offer-title
   kicker: What we do
@@ -37,16 +34,13 @@ portfolio:
   titleId: form-work-title
   kicker: Selected work
   heading: From digital model to physical form.
-  items:
-    - index: FORM / 01
-      eyebrow: 3D MODELLING & VISUALISATION
-      title: Mind Mesh Learning System
-      body: 3D modelling, plans and high-resolution renders for the Mind Mesh Learning System, used by the company in its patent filings.
-      href: https://learnmindmesh.com/
-      linkLabel: Visit Mind Mesh
 cta:
   eyebrow: UIR FORM
   heading: Have something<br>you’d like to make?
   href: /#our-work
   label: Back to all ÚIR services
 ---
+
+UIR Form is the home for ÚIR’s 3D modelling and printer management work. We bring care to the shape of an idea and to the practical details that help turn it into a physical object.
+
+Each project is different. We’ll begin with what you need to make, how it will be used and what your current setup can support.
