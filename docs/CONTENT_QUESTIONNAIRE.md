@@ -22,13 +22,13 @@ Decisions already made (included here for context, not asked again):
 ## 2. UIR Access - src/access.md (3 items)
 
 4. [Required] Offer note: "Specific services, methods and project examples can be added as the UIR Access portfolio is gathered." What specific services, methods (for example WCAG audit, VPAT/ACR authoring, training) should be listed on this page now?
-5. [Required] Only one portfolio entry exists (CIVIC UK, see item 19). Are there other accessibility clients or engagements, approved for public naming, to add alongside it?
+5. [Required] Only one portfolio entry exists (CIVIC UK, see item 22). Are there other accessibility clients or engagements, approved for public naming, to add alongside it?
 6. [Nice to have] Is "UIR Access" the final public-facing name for this service, or a working title?
 
 ## 3. UIR Form - src/form.md (3 items)
 
 7. [Required] Offer note: "Equipment, materials, supported formats and project examples can be added as the UIR Form portfolio is gathered." What 3D printing/modelling equipment, materials and file formats do you actually support and want published?
-8. [Required] Only one portfolio entry exists (Mind Mesh Learning System, see item 20). Any other 3D modelling or print management work, approved for public naming, to add?
+8. [Required] Only one portfolio entry exists (Mind Mesh Learning System, see item 23). Any other 3D modelling or print management work, approved for public naming, to add?
 9. [Nice to have] Is "UIR Form" the final public-facing name for this service, or a working title?
 
 ## 4. UIR Studio - src/studio.md (3 items)
