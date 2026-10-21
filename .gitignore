@@ -1,3 +1,4 @@
 node_modules/
 /.openai/hosting.json
 /dist/.openai/hosting.json
+dist/
