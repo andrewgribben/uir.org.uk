@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP0D7ZumR_g.woff2") format("woff2");
+  src: url("/assets/fonts/jura.woff2") format("woff2");
 }
 
 :root {
