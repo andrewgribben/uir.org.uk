@@ -3,7 +3,7 @@ layout: contact.njk
 permalink: contact.html
 pageId: contact
 title: Contact ÚIR Consulting
-description: Get in touch with ÚIR Consulting about your project.
+description: Email ÚIR Consulting about your project.
 hero:
   titleId: contact-title
   serviceName: Consulting

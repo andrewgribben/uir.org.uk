@@ -3,7 +3,7 @@ layout: service.njk
 permalink: studio.html
 pageId: studio
 title: UIR Studio — ÚIR Consulting
-description: UIR Studio designs and develops apps and websites with people and purpose in mind.
+description: UIR Studio is where we design, build and ship our own digital products, including TapTags and Earworm.
 hero:
   serviceName: Studio
   heading: Digital things,<br><em>made with care.</em>
@@ -29,12 +29,10 @@ offer:
     - number: "03"
       title: Develop
       body: Turn the design into a working website or app with care for the people using it.
-  note: Project types, technologies and case studies can be added as the UIR Studio portfolio is gathered.
 portfolio:
   titleId: studio-work-title
-  kicker: Selected work
-  heading: Digital experiences, built for people.
-  empty: Studio examples will appear here as they’re prepared for sharing.
+  kicker: Our products
+  heading: Products we’ve designed, built and shipped.
 cta:
   eyebrow: UIR STUDIO
   heading: Let’s shape a useful<br>digital experience.
@@ -42,6 +40,6 @@ cta:
   label: Back to all ÚIR services
 ---
 
-UIR Studio brings design and development together for apps and websites. We keep the end-to-end experience in view, making deliberate choices about how a product looks, works and communicates.
+UIR Studio brings design and development together for the digital products we build and release ourselves. We keep the end-to-end experience in view, making deliberate choices about how a product looks, works and communicates.
 
-Accessibility is part of that foundation. It informs our approach across the work, alongside the needs of each project and the people it serves.
+Accessibility is part of that foundation. It informs our approach across the work, alongside the needs of each product and the people it serves.

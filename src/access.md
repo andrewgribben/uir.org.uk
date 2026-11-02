@@ -18,18 +18,26 @@ intro:
 offer:
   titleId: access-offer-title
   kicker: Where we can help
-  heading: Make accessibility part<br>of the whole journey.
+  heading: The services we offer.
   items:
     - number: "01"
-      title: Understand
-      body: Bring the accessibility question into focus and agree what a useful next step looks like.
+      title: Accessibility leadership
+      body: Guide the accessibility direction of a project or team.
     - number: "02"
-      title: Shape
-      body: Consider access as digital services are planned, designed and developed.
+      title: Training
+      body: Help teams build the skills to work accessibly day to day.
     - number: "03"
-      title: Improve
-      body: Make informed changes that help create a clearer, more usable experience.
-  note: Specific services, methods and project examples can be added as the UIR Access portfolio is gathered.
+      title: Accessibility audits
+      body: Review websites and apps against WCAG and report the findings.
+    - number: "04"
+      title: VPAT / Accessibility Conformance Report authoring
+      body: Author Accessibility Conformance Reports for procurement and compliance.
+    - number: "05"
+      title: Accessibility statement authoring
+      body: Write accessibility statements that reflect real testing and status.
+    - number: "06"
+      title: User testing with disabled participants
+      body: Test with disabled participants to surface real-world usability issues.
 portfolio:
   titleId: access-work-title
   kicker: Selected work
