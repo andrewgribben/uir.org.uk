@@ -3,7 +3,7 @@ layout: service.njk
 permalink: form.html
 pageId: form
 title: UIR Form — ÚIR Consulting
-description: UIR Form brings 3D modelling and print management together under one thoughtful approach.
+description: UIR Form brings 3D modelling, print management and print farm automation together under one thoughtful approach.
 hero:
   serviceName: Form
   heading: Ideas take<br><em>shape.</em>
@@ -25,11 +25,13 @@ offer:
       body: Develop digital models for ideas that need to be explored in three dimensions.
     - number: "02"
       title: Print management
-      body: Support the organisation and management of 3D printing work and equipment.
+      body: Support the organisation and management of 3D printing work.
     - number: "03"
-      title: Make it useful
-      body: Keep the intended use in view as digital forms become physical objects.
-  note: Equipment, materials, supported formats and project examples can be added as the UIR Form portfolio is gathered.
+      title: Print farm management & automation
+      body: Build bespoke systems to manage and automate a 3D print farm.
+    - number: "04"
+      title: Consultancy
+      body: Advise on 3D modelling, print management and production workflow.
 portfolio:
   titleId: form-work-title
   kicker: Selected work

@@ -8,7 +8,7 @@ The Access, Form and Studio pages build their **Selected work** cards from one M
 | UIR Form | `src/projects/form/` | 3D modelling, print management or physical product |
 | UIR Studio | `src/projects/studio/` | App, website or digital product |
 
-Use a lowercase, hyphenated filename, such as `src/projects/studio/example-product.md`. Create the service folder if it does not exist yet; Studio has no published entries at present. The filename is for editors; the title and card order come from front matter.
+Use a lowercase, hyphenated filename, such as `src/projects/studio/example-product.md`. The filename is for editors; the title and card order come from front matter.
 
 ## Add a card
 
@@ -39,7 +39,12 @@ The front matter fields are:
 - `eyebrow` is the category label.
 - `title` is the client or product name.
 - `href` and `linkLabel` define the card link.
+- `group` (optional) batches this card under a shared label, such as `Geiger Games`. Cards that share the same `group` value appear together under one heading, in `order` within that group. Omit `group` for a card that stands on its own, such as TapTags under Studio.
 - The Markdown body is the card description.
+
+### Adding another game under Geiger Games
+
+Geiger Games is a `group` of Studio cards, not a separate folder. To add another game to the Studio page, create one more Markdown file in `src/projects/studio/` with `group: Geiger Games` and the next `order` value (for example `30`). No template or layout change is needed; the Studio page groups and labels it automatically.
 
 If a link should not be shown, omit `href` and `linkLabel` only after updating the shared card template to support cards without links. For now, each project card needs a destination.
 
@@ -68,4 +73,4 @@ To publish the updated site on GitHub Pages, run `npm run deploy:pages` from the
 
 - Access: `src/projects/access/civic-uk.md`
 - Form: `src/projects/form/mind-mesh-learning-system.md`
-- Studio: no published examples yet
+- Studio: `src/projects/studio/taptags.md` (own entry, no group); `src/projects/studio/geiger-games-earworm.md` (`group: Geiger Games`)
